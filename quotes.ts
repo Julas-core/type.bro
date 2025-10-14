@@ -1,0 +1,18 @@
+export const quotes = [
+    "The only way to do great work is to love what you do.",
+    "The quick brown fox jumps over the lazy dog.",
+    "Innovation distinguishes between a leader and a follower.",
+    "Your time is limited, so don’t waste it living someone else’s life.",
+    "Stay hungry, stay foolish.",
+    "The future belongs to those who believe in the beauty of their dreams.",
+    "It is during our darkest moments that we must focus to see the light.",
+    "Whoever is happy will make others happy too.",
+    "The purpose of our lives is to be happy.",
+    "You will face many defeats in life, but never let yourself be defeated.",
+    "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+    "In the end, it’s not the years in your life that count. It’s the life in your years.",
+    "Never let the fear of striking out keep you from playing the game.",
+    "Life is either a daring adventure or nothing at all.",
+    "Many of life’s failures are people who did not realize how close they were to success when they gave up.",
+    "You have brains in your head. You have feet in your shoes. You can steer yourself any direction you choose.",
+];

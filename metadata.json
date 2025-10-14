@@ -1,0 +1,5 @@
+{
+  "name": "Type.bro",
+  "description": "A clone of the popular typing test website monkeytype, built with React and Tailwind CSS. Test your typing speed, accuracy, and consistency with a sleek, hacker-themed interface.",
+  "requestFramePermissions": []
+}

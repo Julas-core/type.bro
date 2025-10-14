@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="Type.bro.svg" />
+    <title>Type.bro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'theme-bg': 'var(--bg-color)',
+                        'theme-text': 'var(--text-color)',
+                        'theme-primary': 'var(--primary-color)',
+                        'theme-primary-dark': 'var(--primary-dark-color)',
+                        'theme-secondary': 'var(--secondary-color)',
+                        'theme-error': 'var(--error-color)',
+                        'theme-caret': 'var(--caret-color)',
+                    },
+                    fontFamily: {
+                        mono: ['Roboto Mono', 'monospace'],
+                    },
+                    keyframes: {
+                        blink: {
+                            '0%, 100%': { opacity: 1 },
+                            '50%': { opacity: 0 },
+                        }
+                    },
+                    animation: {
+                        blink: 'blink 1s linear infinite',
+                    }
+                }
+            }
+        }
+    </script>
+<script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.1.1/",
+    "react": "https://aistudiocdn.com/react@^19.1.1",
+    "recharts": "https://aistudiocdn.com/recharts@^3.2.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.21.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="font-mono">
+<div id="root"></div>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>
